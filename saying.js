@@ -6,13 +6,13 @@ const saying = [`"Things work out best for those who make the best of how things
 `"행복의 비결은 무엇을 받아들이고 무엇을 흘려보낼 것인지 선택할 힘이 우리 스스로에게 있다는 것을 아는 것입니다."`]
 
 function getSaying() {
-    let sayingNum = Math.floor(Math.random() * saying.length);
+    let sayingNum = Math.floor(Math.random() * saying.length)+1;
     sayingTitle.innerText = `${saying[sayingNum]}`;
 }
 
 function init() {
     getSaying();
-    setInterval(getSaying, 6000);
+    setInterval(getSaying, 10000);
 }
 
 init();
