@@ -29,7 +29,7 @@ body {
   animation-delay: 0.5s;
   color: white;
   display: flex;
-  align-items: center;
+  margin-top : 50px;
   justify-content: center;
 }
 
@@ -73,7 +73,7 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 .center .name__text {
   font-size: 36px;
