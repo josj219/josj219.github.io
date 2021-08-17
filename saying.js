@@ -7,6 +7,7 @@ const saying = [`"Things work out best for those who make the best of how things
 
 function getSaying() {
     let sayingNum = Math.floor(Math.random() * saying.length)+1;
+    console.log(sayingNum);
     sayingTitle.innerText = `${saying[sayingNum]}`;
 }
 
